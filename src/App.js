@@ -10,7 +10,10 @@ import DogDetails from "./DogDetails";
 function App() {
   return (
     <Router>
-      <div>
+      <div style={{ backgroundImage: `url(${background})`,
+      backgroundSize: 'cover',
+      backgroundPosition: 'center'
+    }}>
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
