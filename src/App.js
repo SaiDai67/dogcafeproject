@@ -6,6 +6,7 @@ import Schedule from "./Schedule";
 import Menu from "./Menu";
 import DogInfo from "./DogInfo"; 
 import DogDetails from "./DogDetails"; 
+import background from "./dog_background.avif";
 
 function App() {
   return (
