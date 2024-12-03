@@ -6,7 +6,7 @@ function Navbar() {
       <a href="/" style={{ margin: "0 15px", textDecoration: "none", color: "#333" }}>Home</a>
       <a href="/schedule" style={{ margin: "0 15px", textDecoration: "none", color: "#333" }}>Schedule</a>
       <a href="/menu" style={{ margin: "0 15px", textDecoration: "none", color: "#333" }}>Menu</a>
-      <a href="/gps" style={{ margin: "0 15px", textDecoration: "none", color: "#333" }}>GPS</a>
+      <a href="/dog-info" style={{ margin: "0 15px", textDecoration: "none", color: "#333" }}>Dog Info</a>
     </nav>
   );
 }

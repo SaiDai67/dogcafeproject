@@ -4,7 +4,8 @@ import Navbar from "./Navbar";
 import Home from "./Home";
 import Schedule from "./Schedule";
 import Menu from "./Menu";
-import GPS from "./GPS";
+import DogInfo from "./DogInfo"; 
+import DogDetails from "./DogDetails"; 
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/schedule" element={<Schedule />} />
           <Route path="/menu" element={<Menu />} />
-          <Route path="/gps" element={<GPS />} />
+          <Route path="/dog-info" element={<DogInfo />} />
+          <Route path="/dog-info/:id" element={<DogDetails />} />
         </Routes>
       </div>
     </Router>
