@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const dogs = [
-  { id: 1, name: "Judy", breed: "Golden Retriever" },
+  { id: 1, name: "Judy", breed: "Airedale Terrier" },
   { id: 2, name: "Max", breed: "German Shepherd" },
   { id: 3, name: "Bella", breed: "Labrador Retriever" },
   { id: 4, name: "Charlie", breed: "Poodle" },
