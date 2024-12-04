@@ -2,7 +2,7 @@ import React from "react";
 import { useParams } from "react-router-dom";
 
 const dogs = [
-  { id: 1, name: "Judy", breed: "Golden Retriever", age: 5, description: "Judy loves to play fetch!" },
+  { id: 1, name: "Judy", breed: "Airedale Terrier", age: 5, description: "Judy loves to play fetch!" },
   { id: 2, name: "Max", breed: "German Shepherd", age: 4, description: "Max is a great guard dog." },
   { id: 3, name: "Bella", breed: "Labrador Retriever", age: 3, description: "Bella enjoys swimming." },
   { id: 4, name: "Charlie", breed: "Poodle", age: 6, description: "Charlie is very smart and loves puzzles." },
