@@ -33,7 +33,6 @@ function Schedule() {
     dogSchedule.push([...randomDogs]);
   }
 
-  // Generate the calendar days
   const calendar = [];
   for (let i = 0; i < firstDay; i++) {
     calendar.push(null); // Empty slots for days before the first day
@@ -84,7 +83,7 @@ function Schedule() {
                       padding: "10px",
                       border: "1px solid #ddd",
                       textAlign: "center",
-                      backgroundColor: entry ? "#fff" : "#f4f4f4",
+                      backgroundColor: "#fff",
                     }}
                   >
                     {entry ? (
